@@ -1,0 +1,39 @@
+.container {
+  background-image: url("../images/main_image.jpeg");
+  background-size: cover;
+}
+
+#firstRow {
+  background-color: black;
+  border:10px solid white;
+  margin-left: 50px;
+  text-align: center;
+  font-family: "Comic Sans";
+  font-weight: bold;
+}
+
+#questionRow {
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#choicesRow {
+  margin-top: 25px;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+
+#timerRow {
+  font-size: 20px;
+}
+
+#imageRow {
+  max-width:415px;
+}
+
+@media screen and (max-width: 750px) {
+	#imageRow img {
+	max-width: 250px;
+}
