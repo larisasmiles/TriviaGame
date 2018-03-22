@@ -1,39 +1,24 @@
-.container {
-  background-image: url("../images/main_image.jpeg");
-  background-size: cover;
+#timer {
+  font-size: 40px;
 }
 
-#firstRow {
-  background-color: black;
-  border:10px solid white;
-  margin-left: 50px;
-  text-align: center;
-  font-family: "Comic Sans";
-  font-weight: bold;
-}
-
-#questionRow {
-  font-size: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
-#choicesRow {
-  margin-top: 25px;
-  font-size: 24px;
-  line-height: 36px;
+.question, .trivia {
+  font-size: 30px;
   text-align: center;
 }
 
-#timerRow {
+.answer {
   font-size: 20px;
+  width: 40%;
+  margin-left: 30%;
 }
 
-#imageRow {
-  max-width:415px;
+.answer:hover {
+  background: lightblue;
+  border:1px solid darkblue;
 }
 
-@media screen and (max-width: 750px) {
+/* @media screen and (max-width: 750px) {
 	#imageRow img {
 	max-width: 250px;
-}
+} */
